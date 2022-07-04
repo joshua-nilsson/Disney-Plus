@@ -23,7 +23,7 @@ function Hero() {
             height="150"
             objectFit="contain"
           />
-          <button className="bg-blue-600 uppercase text-xl tracking-wide font-extrabold py-4 px-6 w-full rounded hover:bg-[#0485ee]">
+          <button className="bg-blue-600 uppercase text-xl tracking-wide font-extrabold py-4 px-6 w-full rounded hover:bg-[#0485ee]" onClick={signIn}>
             Get all there
           </button>
           <p className="text-xs text-center ">
