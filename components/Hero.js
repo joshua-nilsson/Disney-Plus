@@ -25,7 +25,7 @@ function Hero() {
             objectFit="contain"
           />
           <button className="bg-blue-600 uppercase text-xl tracking-wide font-extrabold py-4 px-6 w-full rounded hover:bg-[#0485ee]" onClick={signIn}>
-            Get all there
+            Get Them All
           </button>
           <p className="text-xs text-center ">
             Get Premier Access to Raya and the Last Dragon for an additional fee
