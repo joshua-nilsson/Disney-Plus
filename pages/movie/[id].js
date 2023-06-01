@@ -20,8 +20,8 @@ function Movie({ result }) {
     }
   }, []);
 
-  const index = result.videos.results.findIndex(
-    (element) => element.type === "Trailer"
+  const index = result?.videos?.results?.findIndex(
+    (element) => element?.type === "Trailer"
   );
 
   return (
@@ -113,7 +113,7 @@ function Movie({ result }) {
             </div>
             <div className="relative pt-[56.25%]">
               <ReactPlayer
-                url={`https://www.youtube.com/watch?v=${result.videos?.results[index]?.key}`}
+                url={`https://www.youtube.com/watch?v=${result?.videos?.results[index]?.key}`}
                 width="100%"
                 height="100%"
                 style={{ position: "absolute", top: "0", left: "0" }}

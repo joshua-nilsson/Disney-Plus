@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Image from "next/image";
+import { signIn } from "next-auth/client";
 
 function Hero() {
   return (

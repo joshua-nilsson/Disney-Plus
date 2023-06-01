@@ -7,6 +7,7 @@ function Brands() {
         <Image src="/images/disnep.png" layout="fill" objectFit="cover" />
         <video
           autoPlay
+		  muted
           loop
           playsInline
           className="hidden group-hover:inline rounded-lg object-cover"
@@ -19,6 +20,7 @@ function Brands() {
         <Image src="/images/pixar.png" layout="fill" objectFit="cover" />
         <video
           autoPlay
+		  muted
           loop
           playsInline
           className="hidden group-hover:inline rounded-lg object-cover"
@@ -31,6 +33,7 @@ function Brands() {
         <Image src="/images/marvel.png" layout="fill" objectFit="cover" />
         <video
           autoPlay
+		  muted
           loop
           playsInline
           className="hidden group-hover:inline rounded-lg object-cover"
@@ -43,6 +46,7 @@ function Brands() {
         <Image src="/images/starwars.png" layout="fill" objectFit="cover" />
         <video
           autoPlay
+		  muted
           loop
           playsInline
           className="hidden group-hover:inline rounded-lg object-cover"
@@ -59,6 +63,7 @@ function Brands() {
         />
         <video
           autoPlay
+		  muted
           loop
           playsInline
           className="hidden group-hover:inline rounded-lg object-cover"
